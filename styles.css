@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(113,207,221,1.00);
+    font-size: 14pt;
+}
+
+
+#container {
+    width: 1279px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    background-size: cover;
+}
+aside {
+    width: 150px;
+    height: 1200px;
+    background-color: rgba(58,167,172,1.00);
+    float: left;
+}
+header {
+    width: 1280px;
+    height: 250px;
+    background-color: #FFFFFF;
+	background-image: url(travel_logo.png);
+	margin: 50px 0px 0px 0px;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    width: 1100px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	background-color: white;
+}h1 {
+    color: rgba(127,208,215,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+p{
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+h3 {
+    color: rgba(162,213,160,1.00);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+footer {
+    width: 1280px;
+    height: 50px;
+	background-color: #646464;
+    clear: both;
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+    margin: auto;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 60px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18pt;
+}
+#container nav ul {
+	margin: auto;
+	width: 480px;
+}
+
+nav a:link {
+    color: rgba(139,200,97,1);
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: rgba(190,25,158,1);
+}
+nav a:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+	background-color:  rgba(139,200,97,1);
+	padding: 10px;
+	border-radius: 30px;
+ }
+nav a:active {
+    text-decoration: none;
+    color: rgba(123,209,231,1);
+}
+
+
+.submit_btn {
+    height: 48px;
+    border-radius: 10px;
+    background-color: rgba(139,200,95,1.00);
+    color: rgba(67,96,106,1.00);
+    width: 132px;
+    font-size: 14px;
+
+}
+
+.submit_btn:hover {
+	
+	 -webkit-box-shadow: 10px 10px 17px 3px rgba(69,69,69,1.00);
+    box-shadow: 10px 10px 17px 3px rgba(69,69,69,1.00);
+}
